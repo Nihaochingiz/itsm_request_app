@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF; /* Set background color to white */
+  color: #000; /* Set text color to black */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ITSMRequestForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000; /* Set form background color to black */
+  color: #FFD700; /* Set text color to yellow */
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #FFD700; /* Set label text color to yellow */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #FFD700; /* Set border color to yellow */
+  border-radius: 4px;
+  background-color: #333; /* Set input background color to dark gray */
+  color: #FFD700; /* Set input text color to yellow */
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  padding: 10px 15px;
+  background-color: #FFD700; /* Set button background color to yellow */
+  color: #000; /* Set button text color to black */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: #FFA500; /* Darken button color on hover */
 }
